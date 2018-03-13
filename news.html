@@ -10,7 +10,7 @@ body {
 		background-size: 900px 250px
 		
 } 
-</style>
+</style> 
 
 </head>
 
@@ -28,6 +28,9 @@ Coming Soon! //Placeholder// </--comment test-->
 onclick="document.getElementById('demo').innerHTML = Date()">
 Want to know the date and time?.</button>
 <p id="demo"></p>
+<div style='display: flex; justify-content: center;'>
+  <a class='rollover' href="#"></a>
+</div>
 </div>
 </body> 
 </html>
@@ -36,6 +39,22 @@ Want to know the date and time?.</button>
 .text2 {
 
 transform: translate(0px, 240px);
+}
+
+.rollover {
+    display: block;
+    width: 800px;
+    height: 600px;
+    background: url(https://github.com/Marcustarversmith/marcustarversmith.github.io/blob/master/red%20shirt.jpg) no-repeat;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.rollover:hover {
+    background: url(https://github.com/Marcustarversmith/marcustarversmith.github.io/blob/master/blue%20shirt.jpg)
+	
 }
 
 </style>
